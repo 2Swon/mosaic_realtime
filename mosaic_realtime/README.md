@@ -147,14 +147,14 @@ blur처리된 좌표값 전달
 !python detect.py --weights best.pt --conf 0.4 --source 0 --option []
 ```
 
-<img src="https://github.com/2Swon/DeepLearing/blob/main/Project/mosaic_realtime/img/option%5B%5D.png">
+<img src="https://github.com/2Swon/mosaic_realtiem/blob/main/mosaic_realtime/img/option%5B%5D.png">
 
 ##### 3.2 option[0, 1] (흉기, 담배 모자이크 처리)
 
 ```python
 !python detect.py --weights best.pt --conf 0.4 --source 0 --option [0,1]
 ```
-<img src="https://github.com/2Swon/DeepLearing/blob/main/Project/mosaic_realtime/img/option%5B0%2C1%5D.png">
+<img src="https://github.com/2Swon/mosaic_realtiem/blob/main/mosaic_realtime/img/option%5B0%2C1%5D.png">
 
 
 ##### 3.3 hide-annotation (바운딩박스 정보 숨기기)
@@ -162,7 +162,7 @@ blur처리된 좌표값 전달
 ```python
 !python detect.py --weights best.pt --conf 0.4 --source 0 --option [] --hide-annotation
 ```
-<img src="https://github.com/2Swon/DeepLearing/blob/main/Project/mosaic_realtime/img/hide-annotation.png">
+<img src="https://github.com/2Swon/mosaic_realtiem/blob/main/mosaic_realtime/img/hide-annotation.png">
 
 
 
